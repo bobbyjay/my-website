@@ -11,7 +11,7 @@ from playwright.sync_api import sync_playwright
 # ----------------------------
 REDIS_URL = os.environ.get("REDIS_URL")
 if not REDIS_URL:
-    raise ValueError("REDIS_URL not set in environment")
+    raise ValueError("REDIS_URL not set")
 
 r = redis.from_url(REDIS_URL, decode_responses=True)
 
@@ -22,11 +22,33 @@ HEADERS = {
 }
 
 # ----------------------------
-# Fetch real SofaScore statistics
+# SofaScore endpoints
+# ----------------------------
+STAT_API = "https://api.sofascore.com/api/v1/event/{match_id}/statistics"
+POINT_API = "https://api.sofascore.com/api/v1/event/{match_id}/point-by-point"
+
+# ----------------------------
+# Helpers
+# ----------------------------
+def safe_int(v):
+    try:
+        return int(v)
+    except:
+        return None
+
+
+def safe_score(score_obj):
+    if not score_obj:
+        return 0
+    return score_obj.get("current") or score_obj.get("period1") or 0
+
+
+# ----------------------------
+# Fetch statistics API
 # ----------------------------
 def fetch_match_statistics(match_id):
 
-    url = f"https://api.sofascore.com/api/v1/event/{match_id}/statistics"
+    url = STAT_API.format(match_id=match_id)
 
     try:
         res = requests.get(url, headers=HEADERS, timeout=10)
@@ -37,76 +59,137 @@ def fetch_match_statistics(match_id):
     stats = {}
 
     for block in data.get("statistics", []):
+
         if block.get("period") != "ALL":
             continue
 
         for group in block.get("groups", []):
+
             for item in group.get("statisticsItems", []):
 
                 name = item.get("name")
-                home = item.get("home")
-                away = item.get("away")
-
-                stats[name] = {"home": home, "away": away}
+                stats[name] = {
+                    "home": item.get("home"),
+                    "away": item.get("away")
+                }
 
     return stats
 
 
 # ----------------------------
-# Extract stats for each player
+# Fetch point-by-point fallback
 # ----------------------------
-def extract_player_stats(stats, side):
+def fetch_point_data(match_id):
+
+    url = POINT_API.format(match_id=match_id)
+
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=10)
+        data = r.json()
+    except:
+        return []
+
+    return data.get("points", [])
+
+
+# ----------------------------
+# Build stats from points
+# ----------------------------
+def build_stats_from_points(points):
+
+    stats = {
+        "home": {
+            "aces": 0,
+            "double_faults": 0,
+            "serve_points_won": 0,
+            "return_points_won": 0
+        },
+        "away": {
+            "aces": 0,
+            "double_faults": 0,
+            "serve_points_won": 0,
+            "return_points_won": 0
+        }
+    }
+
+    for p in points:
+
+        server = p.get("server")
+        winner = p.get("winner")
+        result = p.get("result")
+
+        if result == "ace":
+            stats[server]["aces"] += 1
+
+        if result == "doubleFault":
+            stats[server]["double_faults"] += 1
+
+        if winner == server:
+            stats[server]["serve_points_won"] += 1
+        else:
+            stats[winner]["return_points_won"] += 1
+
+    return stats
+
+
+# ----------------------------
+# Extract stats for a player
+# ----------------------------
+def extract_player_stats(stat_api, point_stats, side):
 
     home = side == "home"
 
-    def pick(stat):
-        if stat not in stats:
-            return None
-        return stats[stat]["home"] if home else stats[stat]["away"]
+    def pick(name):
+
+        if name in stat_api:
+            return stat_api[name]["home"] if home else stat_api[name]["away"]
+
+        if point_stats:
+            return point_stats[side].get(name)
+
+        return None
 
     return {
-        "aces": pick("Aces"),
-        "double_faults": pick("Double faults"),
-        "first_serve_pct": pick("First serve %"),
-        "first_serve_points_won": pick("1st serve points won"),
-        "second_serve_points_won": pick("2nd serve points won"),
-        "break_points_converted": pick("Break points converted"),
-        "break_points_saved": pick("Break points saved")
+        "aces": safe_int(pick("Aces")),
+        "double_faults": safe_int(pick("Double faults")),
+        "first_serve_pct": safe_int(pick("First serve %")),
+        "first_serve_points_won": safe_int(pick("1st serve points won")),
+        "second_serve_points_won": safe_int(pick("2nd serve points won")),
+        "break_points_converted": safe_int(pick("Break points converted")),
+        "break_points_saved": safe_int(pick("Break points saved"))
     }
-
-
-# ----------------------------
-# Score helper
-# ----------------------------
-def safe_get_score(score_obj):
-    if not score_obj:
-        return 0
-    return score_obj.get("current") or score_obj.get("period1") or 0
 
 
 # ----------------------------
 # Build player JSON
 # ----------------------------
-def build_player_json(event, stats, side):
+def build_player_json(event, stat_api, point_stats, side):
 
     home = side == "home"
 
     team = event["homeTeam"] if home else event["awayTeam"]
     opponent = event["awayTeam"] if home else event["homeTeam"]
 
-    tournament = event.get("tournament", {}).get("name", "Unknown")
-    surface = event.get("tournament", {}).get("uniqueTournament", {}).get("groundType", "Unknown")
-
     ts = event.get("startTimestamp")
     date = datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else "Unknown"
 
-    home_games = safe_get_score(event.get("homeScore"))
-    away_games = safe_get_score(event.get("awayScore"))
+    tournament = event.get("tournament", {}).get("name", "Unknown")
+
+    surface = event.get(
+        "tournament", {}
+    ).get(
+        "uniqueTournament", {}
+    ).get(
+        "groundType", "Unknown"
+    )
+
+    home_games = safe_score(event.get("homeScore"))
+    away_games = safe_score(event.get("awayScore"))
 
     games_won = home_games if home else away_games
     games_lost = away_games if home else home_games
 
-    stat_values = extract_player_stats(stats, side)
+    stat_values = extract_player_stats(stat_api, point_stats, side)
 
     match_stats = {
         "aces": stat_values["aces"],
@@ -155,19 +238,27 @@ def build_player_json(event, stats, side):
 def fetch_player_stats(match_id):
 
     raw = r.get(f"tennis:match:{match_id}")
+
     if not raw:
         return []
 
     data = json.loads(raw)
+
     event = data.get("event")
 
     if not event:
         return []
 
-    stats = fetch_match_statistics(match_id)
+    stat_api = fetch_match_statistics(match_id)
 
-    home_player = build_player_json(event, stats, "home")
-    away_player = build_player_json(event, stats, "away")
+    point_stats = None
+
+    if not stat_api:
+        points = fetch_point_data(match_id)
+        point_stats = build_stats_from_points(points)
+
+    home_player = build_player_json(event, stat_api, point_stats, "home")
+    away_player = build_player_json(event, stat_api, point_stats, "away")
 
     status = event.get("status", {}).get("type")
 
@@ -225,7 +316,7 @@ def collector_loop():
                 if not match_id:
                     continue
 
-                print(f"Fetching LIVE stats for match {match_id}")
+                print("Fetching stats for match", match_id)
 
                 fetch_player_stats(match_id)
 
