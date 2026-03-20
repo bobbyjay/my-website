@@ -1,0 +1,2365 @@
+[
+  {
+    "game_id": "hltv_45eb3ebb57140140b65f6aba5c5222c7",
+    "sport": "esports",
+    "game": "cs2",
+    "home_team": "QWENTRY",
+    "away_team": "Oxuji 4",
+    "status": "scheduled",
+    "tournament": "BLAST Open Rotterdam",
+    "players": []
+  },
+  {
+    "game_id": "hltv_e90d235b76588fb0eec1dfc5ef700e7d",
+    "sport": "esports",
+    "game": "cs2",
+    "home_team": "NRG",
+    "away_team": "B8 33",
+    "status": "scheduled",
+    "tournament": "BLAST Open Rotterdam",
+    "players": []
+  },
+  {
+    "game_id": "hltv_e7ab24e750c6da277593b734c3ef9751",
+    "sport": "esports",
+    "game": "cs2",
+    "home_team": "MINLATE",
+    "away_team": "MANA 1",
+    "status": "scheduled",
+    "tournament": "BLAST Open Rotterdam",
+    "players": []
+  },
+  {
+    "game_id": "hltv_04ea9376f6eff7b6f247b6050d24b932",
+    "sport": "esports",
+    "game": "cs2",
+    "home_team": "TDK",
+    "away_team": "Nemesis 7",
+    "status": "scheduled",
+    "tournament": "BLAST Open Rotterdam",
+    "players": []
+  },
+  {
+    "game_id": "hltv_80e1d905408d53e873b6a93971ea9ccf",
+    "sport": "esports",
+    "game": "cs2",
+    "home_team": "Falcons",
+    "away_team": "Natus Vincere 82",
+    "status": "scheduled",
+    "tournament": "BLAST Open Rotterdam"
+  },
+  {
+    "game_id": "hltv_2ab31a0393e2cbc82235525b8bf74752",
+    "sport": "esports",
+    "game": "cs2",
+    "home_team": "FaZe",
+    "away_team": "TYLOO 93",
+    "status": "scheduled",
+    "tournament": "BLAST Open Rotterdam",
+    "players": []
+  },
+  {
+    "game_id": "hltv_8c138bce6598aeb7682a5dd3147828f7",
+    "sport": "esports",
+    "game": "cs2",
+    "home_team": "Aurora",
+    "away_team": "FURIA 43",
+    "status": "scheduled",
+    "tournament": "BLAST Open Rotterdam",
+    "players": []
+  },
+  {
+    "game_id": "hltv_8870e7ed96469f1cc909302bd6772518",
+    "sport": "esports",
+    "game": "cs2",
+    "home_team": "GenOne",
+    "away_team": "Leo 1",
+    "status": "scheduled",
+    "tournament": "BLAST Open Rotterdam",
+    "players": []
+  },
+  {
+    "game_id": "hltv_922dc394520d0bacfc48088f5b5ad35d",
+    "sport": "esports",
+    "game": "cs2",
+    "home_team": "BIG",
+    "away_team": "FAVBET 14",
+    "status": "scheduled",
+    "tournament": "BLAST Open Rotterdam",
+    "players": []
+  },
+  {
+    "game_id": "hltv_67fc81b216d81828357b1cdfb05b0869",
+    "sport": "esports",
+    "game": "cs2",
+    "home_team": "MOUZ",
+    "away_team": "9z 19",
+    "status": "scheduled",
+    "tournament": "BLAST Open Rotterdam",
+    "players": []
+  },
+  {
+    "game_id": "hltv_49212e30fad9a6dc98375d8cf719e309",
+    "sport": "esports",
+    "game": "cs2",
+    "home_team": "The Last Resort",
+    "away_team": "rottweilers 2",
+    "status": "scheduled",
+    "tournament": "BLAST Open Rotterdam",
+    "players": []
+  },
+  {
+    "game_id": "hltv_2b4d5ee0704194579242acc957242af4",
+    "sport": "esports",
+    "game": "cs2",
+    "home_team": "MARKandLARRY",
+    "away_team": "JFT 3",
+    "status": "scheduled",
+    "tournament": "BLAST Open Rotterdam",
+    "players": []
+  },
+  {
+    "game_id": "hltv_5942e9d93be14c9c94ad5d1f71307144",
+    "sport": "esports",
+    "game": "cs2",
+    "home_team": "Sensation",
+    "away_team": "The Huns 8",
+    "status": "scheduled",
+    "tournament": "BLAST Open Rotterdam",
+    "players": []
+  },
+  {
+    "game_id": "hltv_24caaad2364e91f12971b3d0418e9fe5",
+    "sport": "esports",
+    "game": "cs2",
+    "home_team": "PARIVISION",
+    "away_team": "Spirit 35",
+    "status": "scheduled",
+    "tournament": "BLAST Open Rotterdam",
+    "players": []
+  },
+  {
+    "game_id": "hltv_46ca27390e092ce233f597b9c142a011",
+    "sport": "esports",
+    "game": "cs2",
+    "home_team": "MOUZ",
+    "away_team": "The MongolZ 280",
+    "status": "scheduled",
+    "tournament": "BLAST Open Rotterdam",
+    "players": []
+  },
+  {
+    "game_id": "hltv_bf2d56748b663b15d5002dd931340af0",
+    "sport": "esports",
+    "game": "cs2",
+    "home_team": "UNiTY",
+    "away_team": "G2 Ares 1",
+    "status": "scheduled",
+    "tournament": "BLAST Open Rotterdam",
+    "players": []
+  },
+  {
+    "game_id": "hltv_7bb972074465e68f827d9fa4f7e936ae",
+    "sport": "esports",
+    "game": "cs2",
+    "home_team": "Ursa",
+    "away_team": "K27 2",
+    "status": "scheduled",
+    "tournament": "BLAST Open Rotterdam",
+    "players": []
+  },
+  {
+    "game_id": "vlr_fb5ef6acf05b1c04a4f8c43545b46377",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "Any Questions Gaming",
+    "away_team": "TYLOO",
+    "status": "live",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_16c0730d5f271f23dcd1adc39c2adae1",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "xCrew",
+    "away_team": "The Rad Syndicate",
+    "status": "live",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_5b6292fa58692eda26b8e306f188e0c3",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "REJECT",
+    "away_team": "CREST GAMING Zst",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_cb035b3f1fab3acfe94c808d6b99964b",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "JDG Esports",
+    "away_team": "Bilibili Gaming",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_7f21b83e53adbe5774a86d04d1720663",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "NAOS",
+    "away_team": "Oasis Gaming",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_7c88f1d428790ae09cceb9bcd229f4c8",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "Leosun Esports",
+    "away_team": "Revenant XSpark",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_40ce4e16210f4ef0192d7ce73e3e530c",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "Trinity",
+    "away_team": "Rival Esports",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_9576c806529dce122346798dd4b7b729",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "Misa Esports",
+    "away_team": "Team Liquid Academy",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_1c97b37262f5ad46ed137da383bda72e",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "TODOBEW",
+    "away_team": "Lyost",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_a32554a7156ae77ffbd1b72c9d0dcb18",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "Enterprise Esports",
+    "away_team": "FOKUS",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_c074a400ed37f1ac5dd86f8627624184",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "S2G Esports",
+    "away_team": "MIR",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_5cac7ffb63279eb1f6c719e57b7225c0",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "ShindeN",
+    "away_team": "LEVIATÁN Academy",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_7aec831c75bb5ad2dd3a795539ebe981",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "2Game Esports",
+    "away_team": "RED Canids",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_331b722dc084acab24eb180dfb9c0d3e",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "ORA Esport",
+    "away_team": "Nuxeria Esport",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_7464b4f2921dec2af3a6d7e2fdd03566",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "Melser Kindergarten",
+    "away_team": "OXEN",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_4fdfbf53bd17e4ed500116bfc8438c6b",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "RIDDLE ORDER",
+    "away_team": "Insomnia",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_ecccbe5eb4d0c65bed62491f50a26515",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "TBD",
+    "away_team": "TBD",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_ff38fbbe9728e8312eb8be5babda45cf",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "Gods Reign",
+    "away_team": "S8UL Esports",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_5b8da23b7590285f48e368c3520da114",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "FENNEL",
+    "away_team": "Murash Gaming",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_c3b40553cf6d70a212ebc4a9ba20c72b",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "Fancy United Esports",
+    "away_team": "Motiv Esports",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_8edf1b9a6b7dc081ad2733da63901468",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "Asterisk",
+    "away_team": "DOT EXE",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_cf39d15b999cc9beac24d2c0f53899a0",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "Sharper Esports",
+    "away_team": "555",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_d7f9adf610e9ff2d11babbddb0facd1a",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "Eintracht Frankfurt",
+    "away_team": "Team Liquid Academy",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_c0e765775d932034a479886b68e609d1",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "Joblife",
+    "away_team": "Pixel Lumina",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_d0a902a33f87c43bbec3ec91ee85522f",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "Colors Esport",
+    "away_team": "F9 EICAR",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_40eb3d4d3c5702347fe3132efb072591",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "Barça eSports",
+    "away_team": "FOKUS",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_c9d764b5fcec23773652a5035a9d107f",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "Mandatory",
+    "away_team": "GnG Esports",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_ad60453392b36bcf46b35f844620ab34",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "Team Liquid Brazil",
+    "away_team": "Beta Division GC",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_5b88c515053fd5532097746b464f47a8",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "oi posso fala",
+    "away_team": "PÃO COM RATO",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_313e06b524a6959993891791d93c3a4c",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "Gênias do Bem",
+    "away_team": "Forged to Shine GC",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_adf52f4a2b095388b8ccae3a4bb3d81a",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "malvadinhas 3.0",
+    "away_team": "MIBR GC",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_9f43c8240e599360f363b78fd18ade60",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "LYON",
+    "away_team": "Tezcat Gaming",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_057f4e39187c27e2d22402ea96bc8cc5",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "Chivas Esports",
+    "away_team": "Contra",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_b49cb098319b3afb5a27ff5b30714d38",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "REIGNITE FOXX",
+    "away_team": "AGELITE",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_eda203ba6a66bfed2010cda9b50861c7",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "Leosun Esports",
+    "away_team": "S8UL Esports",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_7260f64bd2aa6d6b6ef79a45d0a519e9",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "TBD",
+    "away_team": "WEC C",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_7e0b7ad4cffa5f19aa56ba05dd1ebd12",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "xCrew",
+    "away_team": "Asterisk",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_69afa7db6a8d8951621379ce429d7b93",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "S2G Esports",
+    "away_team": "Mandatory",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_83747b84f234330656edff071ded79d9",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "UCAM Esports Club",
+    "away_team": "Joblife",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_5f77da91ee1244236241c7cb079de6d7",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "GnG Esports",
+    "away_team": "MIR",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_cb8d90b06604e56ead4749177f3e68bb",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "S2G Esports",
+    "away_team": "GnG Esports",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_50e6f8ce1779551eb63872b0cb6a7864",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "TBK Esports",
+    "away_team": "TBD",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "game_id": "vlr_d5752a2b86c1d076cdab04227c9b3e6e",
+    "sport": "esports",
+    "game": "valorant",
+    "home_team": "MIBR Academy",
+    "away_team": "TBD",
+    "status": "scheduled",
+    "source": "vlr",
+    "players": [
+      {
+        "name": "M80 rebuild heats up with kaplan and NiSMO's return",
+        "rating": null
+      },
+      {
+        "name": "Shopify Rebellion Black picks up QoR's Smoke to replace ion",
+        "rating": null
+      },
+      {
+        "name": "B4ck where he belongs: N4RRATE returns to Karmine Corp",
+        "rating": null
+      },
+      {
+        "name": "DRX calls up academy player yong to main squad",
+        "rating": null
+      },
+      {
+        "name": "d3mur and sturNN leave ULF Esports after stand-in stints",
+        "rating": null
+      },
+      {
+        "name": "Natus Vincere begins rebuild, parts with longtime player Shao",
+        "rating": null
+      },
+      {
+        "name": "Nongshim RedForce cooks Paper Rex alive to win Masters Santiago",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      },
+      {
+        "name": "Paper Rex claims grand final spot with trilogy win over NRG",
+        "rating": null
+      },
+      {
+        "name": "[Spoiler hidden]",
+        "rating": null
+      }
+    ]
+  }
+]
+
