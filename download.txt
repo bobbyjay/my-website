@@ -1,0 +1,199 @@
+# =====================================================================
+# Inkscape Smart Downloader + Silent Installer (Ultimate Pro Edition)
+# =====================================================================
+
+$ErrorActionPreference = "Stop"
+$ProgressPreference = "SilentlyContinue"
+
+# Force TLS 1.2 / 1.3 when available
+try {
+    [Net.ServicePointManager]::SecurityProtocol =
+        [Net.SecurityProtocolType]::Tls12 -bor
+        [Net.SecurityProtocolType]::Tls13
+}
+catch {
+    [Net.ServicePointManager]::SecurityProtocol =
+        [Net.SecurityProtocolType]::Tls12
+}
+
+# ---------------------------
+# Configuration
+# ---------------------------
+$appName        = "Inkscape"
+$version        = "1.4"
+$arch           = if ([Environment]::Is64BitOperatingSystem) { "x64" } else { "x86" }
+
+$downloadUrl    = if ($arch -eq "x64") {
+    "https://inkscape.org/gallery/item/44616/Inkscape-1.4-x64.exe"
+}
+else {
+    "https://inkscape.org/gallery/item/44617/Inkscape-1.4-x86.exe"
+}
+
+$downloadsPath  = Join-Path $env:USERPROFILE "Downloads"
+$fileName       = "$appName-$version-$arch-Setup.exe"
+$outputFile     = Join-Path $downloadsPath $fileName
+$logFile        = Join-Path $downloadsPath "inkscape-install.log"
+
+# ---------------------------
+# Logging Function
+# ---------------------------
+function Write-Log {
+    param(
+        [string]$Message,
+        [ConsoleColor]$Color = "White"
+    )
+
+    $time = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    $line = "[$time] $Message"
+
+    Write-Host $line -ForegroundColor $Color
+    Add-Content -Path $logFile -Value $line
+}
+
+# ---------------------------
+# Banner
+# ---------------------------
+Clear-Host
+Write-Host "==================================================" -ForegroundColor Cyan
+Write-Host "      Inkscape Ultimate Downloader & Installer    " -ForegroundColor Green
+Write-Host "==================================================" -ForegroundColor Cyan
+Write-Host ""
+
+# ---------------------------
+# Start Session
+# ---------------------------
+if (!(Test-Path $downloadsPath)) {
+    New-Item -ItemType Directory -Path $downloadsPath | Out-Null
+}
+
+"================ NEW SESSION ================" | Out-File $logFile
+
+try {
+
+    # ---------------------------
+    # Internet Check
+    # ---------------------------
+    Write-Log "Checking internet connection..." Yellow
+
+    if (!(Test-Connection -ComputerName 8.8.8.8 -Count 1 -Quiet)) {
+        throw "No internet connection detected."
+    }
+
+    # ---------------------------
+    # Existing File Check
+    # ---------------------------
+    if (Test-Path $outputFile) {
+        $existingSize = [math]::Round((Get-Item $outputFile).Length / 1MB, 2)
+
+        Write-Log "Existing installer found ($existingSize MB)." DarkYellow
+        $reuse = Read-Host "Use existing file? (Y/N)"
+
+        if ($reuse -notmatch "^[Yy]$") {
+            Remove-Item $outputFile -Force
+            Write-Log "Old installer removed." Gray
+        }
+    }
+
+    # ---------------------------
+    # Download if missing
+    # ---------------------------
+    if (!(Test-Path $outputFile)) {
+
+        Write-Log "Downloading $appName $version ($arch)..." Yellow
+
+        try {
+            Import-Module BitsTransfer -ErrorAction Stop
+
+            Start-BitsTransfer `
+                -Source $downloadUrl `
+                -Destination $outputFile `
+                -DisplayName "Inkscape Download" `
+                -Description "Downloading Inkscape installer" `
+                -Priority High
+
+            Write-Log "BITS download completed." Green
+        }
+        catch {
+            Write-Log "BITS unavailable. Falling back to Invoke-WebRequest..." DarkYellow
+
+            Invoke-WebRequest `
+                -Uri $downloadUrl `
+                -OutFile $outputFile `
+                -UseBasicParsing
+
+            Write-Log "Fallback download completed." Green
+        }
+    }
+
+    # ---------------------------
+    # Validate File
+    # ---------------------------
+    if (!(Test-Path $outputFile)) {
+        throw "Installer file missing after download."
+    }
+
+    $sizeMB = [math]::Round((Get-Item $outputFile).Length / 1MB, 2)
+    Write-Log "Installer ready: $fileName ($sizeMB MB)" Green
+
+    # ---------------------------
+    # Menu
+    # ---------------------------
+    $title   = "Install Inkscape"
+    $message = "Choose installation mode"
+
+    $choices = [Management.Automation.Host.ChoiceDescription[]] @(
+        (New-Object Management.Automation.Host.ChoiceDescription "&Silent", "Install silently"),
+        (New-Object Management.Automation.Host.ChoiceDescription "&Manual", "Open normal setup wizard"),
+        (New-Object Management.Automation.Host.ChoiceDescription "&OpenFolder", "Open Downloads folder"),
+        (New-Object Management.Automation.Host.ChoiceDescription "&Skip", "Exit")
+    )
+
+    $decision = $host.UI.PromptForChoice($title, $message, $choices, 0)
+
+    switch ($decision) {
+
+        0 {
+            Write-Log "Starting silent install..." Cyan
+            Start-Process $outputFile -ArgumentList "/S" -Wait
+            Write-Log "Silent installation completed." Green
+        }
+
+        1 {
+            Write-Log "Launching installer wizard..." Cyan
+            Start-Process $outputFile
+        }
+
+        2 {
+            Write-Log "Opening Downloads folder..." Cyan
+            Start-Process explorer.exe $downloadsPath
+        }
+
+        3 {
+            Write-Log "User skipped installation." DarkYellow
+        }
+    }
+
+    # ---------------------------
+    # Cleanup Option
+    # ---------------------------
+    if (Test-Path $outputFile) {
+        $cleanup = Read-Host "Delete installer file now? (Y/N)"
+
+        if ($cleanup -match "^[Yy]$") {
+            Remove-Item $outputFile -Force
+            Write-Log "Installer deleted." Gray
+        }
+        else {
+            Write-Log "Installer kept." Gray
+        }
+    }
+
+}
+catch {
+    Write-Log "FATAL ERROR: $($_.Exception.Message)" Red
+}
+
+Write-Host ""
+Write-Host "Log File: $logFile" -ForegroundColor DarkGray
+Write-Host "Done." -ForegroundColor Green
